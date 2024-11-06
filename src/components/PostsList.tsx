@@ -1,3 +1,6 @@
+import React from "react";
+import useFetchData from "../hooks/useFetchData";
+
 type Post = {
   id: number;
   title: string;
@@ -14,9 +17,11 @@ const PostsList: React.FC = () => {
 
   return (
     <ul>
-      {data?.map((post) => (
+      {data?.map((post: Post) => (
         <li key={post.id}>{post.title}</li>
       ))}
     </ul>
   );
 };
+
+export default PostsList;

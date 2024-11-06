@@ -1,10 +1,10 @@
-type FetchState<T> = {
+export type FetchState<T> = {
   data: T | null;
   error: string | null;
   isLoading: boolean;
 };
 
-type FormState<T> = {
+export type FormState<T> = {
   values: T;
   errors: Partial<Record<keyof T, string>>;
   handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;

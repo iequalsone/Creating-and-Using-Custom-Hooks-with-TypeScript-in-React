@@ -1,3 +1,6 @@
+import React from "react";
+import useForm from "../hooks/useForm";
+
 interface LoginForm {
   email: string;
   password: string;
@@ -39,3 +42,5 @@ const LoginForm: React.FC = () => {
     </form>
   );
 };
+
+export default LoginForm;

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { FetchState } from "../types/formTypes";
 
 function useFetchData<T>(url: string): FetchState<T> {
   const [data, setData] = useState<T | null>(null);

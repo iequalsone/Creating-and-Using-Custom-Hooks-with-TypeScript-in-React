@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FormState } from "../types/formTypes";
 
 function useForm<T extends Record<string, any>>(
   initialValues: T
