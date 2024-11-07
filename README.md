@@ -96,5 +96,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Contributions are welcome! If you’d like to enhance these examples or add additional use cases, feel free to fork the repository, submit a pull request, or open an issue.
 
 Thank you for checking out this repository! I hope these examples inspire you to harness the power of custom hooks in React with TypeScript. Happy coding! 😊
-
-```
